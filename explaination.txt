@@ -1,0 +1,15 @@
+-> setting up routers under the specific format for the ipv6 network
+-> performing unicast routing
+-> enabling the ospf under ipv6 with an router id. later setting up ospf in the interface based on the inter connection between 2 routers.
+-> showing the ip route between 2 routers.
+-> pinging provided ip add under the ipv6 network in the routers.
+-> showing the neighbor routers
+-> trying to ping pcs of one subnet to another.
+
+-> showing the bgp summary in which can get the AS number and the neighbor ip address
+-> creating a prefix list named only this route and specifying and permitting only one route
+10.0.6.0/24
+-> here, r11 gets the data (setting up as in) while r1 is providing the data (setting up as out)
+-> show ip prefix-list is done to show the no of entries present allowed in that router and in what route is it permitting the datas.
+-> trying to ping PC's from PC1 in topology A.
+-> trying to ping PC'S from PC19 in topology B. 
